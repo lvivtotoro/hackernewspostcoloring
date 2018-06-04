@@ -1,0 +1,25 @@
+{
+	"name": "Hackernews Post Coloring",
+	"version": "1.0",
+	"description": "Colors Hackernews posts depending on their depth.",
+	"icons": {
+		"16": "icons/16.png",
+		"48": "icons/48.png",
+		"128": "icons/128.png"
+	},
+    "content_scripts": [
+		{
+			"matches": [
+				"http://news.ycombinator.com/*",
+				"https://news.ycombinator.com/*"
+			],
+			"js": ["content.js"],
+			"run_at": "document_end"
+		}
+    ],
+	"permissions": [
+        "storage"
+    ],
+	"options_page": "options.html",
+	"manifest_version": 2
+}

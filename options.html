@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hackernews Post Coloring Settings</title>
+		<style>
+			html, body {
+				width: 100%;
+			}
+			table td {
+				font-size: 2em;
+				font-family: Courier New;
+				font-weight: bold;
+			}
+			body > div {
+				position: absolute;
+				width: 80%;
+				left: 10%;
+			}
+			div.indent {
+				margin-left: 2%;
+				margin-bottom: 16px;
+			}
+			h3 {
+				margin-bottom: 0;
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			<h1>Hackernews Post Coloring Settings</h1>
+			<h3>Color by Post Depth</h3>
+			<div class="indent">
+				<button id="newcolor">+</button>
+				<table id="colortable">
+					<tbody></tbody>
+				</table>
+			</div>
+			
+			<h3>Line Width</h3>
+			<div class="indent">
+				<input type="number" min="1" step="1" id="linewidth" />
+			</div>
+		
+			<button id="save">Save Options</button>
+		</div>
+		<script src="options.js"></script>
+	</body>
+</html>
