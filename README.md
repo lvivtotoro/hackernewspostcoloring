@@ -1,5 +1,4 @@
 # ![Logo](https://raw.githubusercontent.com/lvivtotoro/hackernewspostcoloring/master/icons/48.png)
-Hackernews Post Coloring Extension.
 
 ## Installation
 [Click here](https://github.com/lvivtotoro/hackernewspostcoloring/archive/master.zip) to download, then extract the archive into any (preferably empty) directory of your choosing.
