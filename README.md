@@ -9,5 +9,5 @@ Make sure the Enabled checkbox is turned on.
 The options menu allows you to customize colors, and the line depth.
 
 ## Screenshot
-
+Here is a discussion about NN.
 ![alt](https://i.imgur.com/5OWMbz5.png)
